@@ -13,6 +13,7 @@ $player = trim(fgets(STDIN));
 echo "Result => ";
 if($player == $computer){
     echo "MENANG\n";
+    exit;
 }
 else{
     echo "KALAH\n";
